@@ -1,6 +1,6 @@
+"use strict";
 // import { register } from "../../controllers/authController.js";
 // import UserSchema from "../../models/AuthModel.js";
-
 // const req = {
 // 	body: {
 // 		name: "fake_email",
@@ -11,7 +11,6 @@
 //     UserSchema.mockImplementationOnce(() => ({
 //         id: 1,
 //         email: 'email',
-
 //     }))
 // 	await register(req);
 // });
