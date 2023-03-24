@@ -1,35 +1,39 @@
 .login {
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .lContainer {
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
-	padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 20rem;
+  gap: 10px;
+  /* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4); */
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1.4rem 1rem;
 }
 
 .lInput {
-	padding: 16px;
-	border-bottom: 2px solid var(--btn-blue-bg);
-	outline: none;
+  padding: 14px;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  font-size: 0.9rem;
 }
 
 .lButton {
-	border: none;
-	padding: 10px 20px;
-	background-color: #0071c2;
-	color: white;
-	font-weight: bold;
-	cursor: pointer;
-	border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .lButton:disabled {
-	background-color: #0071c28c;
-	cursor: not-allowed;
+  background-color: #0071c2;
+  cursor: not-allowed;
 }
